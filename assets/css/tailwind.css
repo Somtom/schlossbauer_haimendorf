@@ -1,0 +1,24 @@
+@tailwind base;
+
+h1 {
+    @apply text-4xl mt-4 mb-2;
+}
+h2 {
+    @apply text-2xl mt-4 mb-2;
+}
+h3 {
+    @apply text-xl mt-4 mb-2;
+}
+.nuxt-content a {
+    @apply text-blue-600;
+}
+
+article {
+    @apply p-6 text-lg;
+}
+  
+  
+
+@tailwind components;
+
+@tailwind utilities;
