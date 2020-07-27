@@ -63,37 +63,16 @@ export default {
     NavItem,
   },
 
+  async fetch() {
+    const data = await this.$content('navigation').fetch()
+    this.navItems = data.navItems
+  },
+
   data() {
     return {
       showMenu: false,
+      navItems: [],
     }
-  },
-
-  computed: {
-    navItems() {
-      return [
-        {
-          to: '/',
-          label: 'Home',
-        },
-        {
-          to: '/test',
-          label: 'Der Hof',
-        },
-        {
-          to: '/ueber-us',
-          label: 'Über Uns',
-        },
-        {
-          to: '/zimmervermietung',
-          label: 'Zimmervermietung',
-        },
-        {
-          to: '/kontakt',
-          label: 'Kontakt',
-        },
-      ]
-    },
   },
 }
 </script>

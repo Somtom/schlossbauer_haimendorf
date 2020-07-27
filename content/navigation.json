@@ -1,0 +1,20 @@
+{
+    "navItems": [
+        {
+            "to": "/",
+            "label": "Home"
+        },
+        {
+            "to": "/der-hof",
+            "label": "Unser Hof"
+        },
+        {
+            "to": "/ueber-uns",
+            "label": "Über uns"
+        },
+        {
+            "to": "/zimmervermietung",
+            "label": "Zimmervermietung"
+        }
+    ]
+}
