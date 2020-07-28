@@ -19,5 +19,22 @@ export default {
     Navbar,
     Footer,
   },
+
+  head: {
+    title: 'Schlossbauer Haimendorf',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Dies ist die Internetpräsenz der Schlossbauern in Haimendorf',
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content:
+          'schlossbauer, haimendorf, bauernhof haimendorf, schlossbauer haimendorf,zimmer haimendorf, zimmer Montagearbeiter',
+      },
+    ],
+  },
 }
 </script>
