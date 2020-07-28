@@ -5,12 +5,18 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  theme: {},
+  theme: {
+    extend: {
+      height: {
+        '80': '20rem',
+      },
+    },
+  },
   variants: {},
   plugins: [],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
-    enabled: true, // process.env.NODE_ENV === 'production',
+    enabled: process.env.NODE_ENV === 'production',
     content: [
       'content/**/*.md',
       'components/**/*.vue',
