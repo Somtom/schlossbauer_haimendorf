@@ -16,7 +16,7 @@
       <div class="absolute inset-0 flex">
         <div class="flex items-center justify-start w-1/2">
           <button
-            class="bg-white text-blue-900 hover:text-blue-600 font-bold hover:shadow-lg rounded-full w-12 h-12 -ml-6"
+            class="bg-white text-blue-900 hover:text-blue-600 font-bold hover:shadow-lg rounded-full w-12 h-12 ml-1 opacity-75"
             @click="prevImage"
           >
             &#8592;
@@ -24,7 +24,7 @@
         </div>
         <div class="flex items-center justify-end w-1/2">
           <button
-            class="bg-white text-blue-900 hover:text-blue-600 font-bold hover:shadow-lg rounded-full w-12 h-12 -mr-6"
+            class="bg-white text-blue-900 hover:text-blue-600 font-bold hover:shadow-lg rounded-full w-12 h-12 mr-1 opacity-75"
             @click="nextImage"
           >
             &#8594;
