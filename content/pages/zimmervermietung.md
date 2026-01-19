@@ -33,32 +33,32 @@ Dank der ruhigen Lage und der Nähe zu Nürnberg (ca. 20 Minuten) sind die Zimme
 ### Zimmer
 
 <div class="flex justify-between flex-wrap">
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-28.jpg" />
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-37.jpg" />
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-41.jpg" />
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-42.jpg" />
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-45.jpg" />
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-47.jpg" />
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-48.jpg" />
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-50.jpg" />
-    <img class="my-6 h-64 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-51.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-28.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-37.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-41.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-42.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-45.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-47.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-48.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-50.jpg" />
+    <img class="my-9 h-64 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-51.jpg" />
 </div>
 
 ### Bäder
 
 <div class="flex justify-between flex-wrap">
-    <img class="my-6 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-33.jpg" />
-    <img class="my-6 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-35.jpg" />
-    <img class="my-6 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-39.jpg" />
-    <img class="my-6 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-43.jpg" />
-    <img class="my-6 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-44.jpg" />
+    <img class="my-9 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-33.jpg" />
+    <img class="my-9 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-35.jpg" />
+    <img class="my-9 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-39.jpg" />
+    <img class="my-9 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-43.jpg" />
+    <img class="my-9 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-44.jpg" />
 </div>
 
 ### Gemeinschaftsräume
 
 <div class="flex justify-between flex-wrap">
-    <img class="my-6 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-40.jpg" />
-    <img class="my-6 w-full lg:w-5/12 object-cover" src="/img/zimmer/photo_2020-08-12_20-30-52.jpg" />
+    <img class="my-9 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-40.jpg" />
+    <img class="my-9 w-full lg:w-5/12 object-cover rounded-xl shadow-md transition-all duration-300 hover:shadow-xl hover:scale-105" src="/img/zimmer/photo_2020-08-12_20-30-52.jpg" />
 </div>
 
 ## Erreichbarkeit

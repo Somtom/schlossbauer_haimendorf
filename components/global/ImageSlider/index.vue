@@ -1,47 +1,51 @@
 <template>
-  <div class="mb-12 h-80 flex flex-col">
-    <div class="w-full relative">
-      <!-- Slides -->
-      <template v-for="(image, i) in images" :key="i">
-        <img
-          v-show="currentIndex === i"
-          class="w-full h-80 object-cover flex items-center rounded-lg transition-all duration-200"
-          :src="image"
-          alt="image slide"
-        />
-      </template>
-
-      <!-- Prev/Next Arrows -->
-      <div class="absolute inset-0 flex">
-        <div class="flex items-center justify-start w-1/2">
-          <button
-            class="bg-white text-blue-900 hover:text-blue-600 font-bold hover:shadow-lg rounded-full w-12 h-12 ml-1 opacity-75"
-            @click="prevImage"
-          >
-            &#8592;
-          </button>
-        </div>
-        <div class="flex items-center justify-end w-1/2">
-          <button
-            class="bg-white text-blue-900 hover:text-blue-600 font-bold hover:shadow-lg rounded-full w-12 h-12 mr-1 opacity-75"
-            @click="nextImage"
-          >
-            &#8594;
-          </button>
-        </div>
-      </div>
-      <!-- Buttons -->
-      <div class="absolute w-full flex items-center justify-center px-4">
-        <template v-for="(image, i) in images" :key="i">
-          <button
-            class="flex w-4 h-4 mt-4 mx-2 mb-0 rounded-full overflow-hidden transition-colors duration-200 ease-out hover:bg-blue-300 hover:shadow-lg"
-            :class="{
-              'bg-blue-600': currentIndex === i,
-              'bg-blue-900': currentIndex !== i,
-            }"
-            @click="currentIndex = i"
-          ></button>
+  <div class="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen mb-18">
+    <div class="flex flex-col">
+      <div class="w-full relative">
+        <!-- Slides -->
+        <template v-for="(image, i) in images">
+          <img
+            v-show="currentIndex === i"
+            :key="i"
+            class="w-full h-96 object-cover rounded-xl transition-all duration-300"
+            :src="image"
+            alt="image slide"
+          />
         </template>
+
+        <!-- Prev/Next Arrows -->
+        <div class="absolute inset-0 flex">
+          <div class="flex items-center justify-start w-1/2">
+            <button
+              class="backdrop-blur-md bg-white/80 text-emerald-900 hover:text-emerald-600 font-bold hover:shadow-lg rounded-xl w-14 h-14 ml-2 opacity-75 hover:opacity-100 transition-all duration-300"
+              @click="prevImage"
+            >
+              &#8592;
+            </button>
+          </div>
+          <div class="flex items-center justify-end w-1/2">
+            <button
+              class="backdrop-blur-md bg-white/80 text-emerald-900 hover:text-emerald-600 font-bold hover:shadow-lg rounded-xl w-14 h-14 mr-2 opacity-75 hover:opacity-100 transition-all duration-300"
+              @click="nextImage"
+            >
+              &#8594;
+            </button>
+          </div>
+        </div>
+        <!-- Buttons -->
+        <div class="absolute w-full flex items-center justify-center px-6">
+          <template v-for="(image, i) in images">
+            <button
+              :key="i"
+              class="flex w-4 h-4 mt-6 mx-3 mb-0 rounded-full overflow-hidden transition-all duration-300 ease-out hover:bg-emerald-300 hover:shadow-lg hover:scale-125"
+              :class="{
+                'bg-emerald-600': currentIndex === i,
+                'bg-emerald-900 opacity-75': currentIndex !== i,
+              }"
+              @click="currentIndex = i"
+            ></button>
+          </template>
+        </div>
       </div>
     </div>
   </div>
@@ -91,7 +95,6 @@ export default {
 <style>
 .snap-x {
   scroll-snap-type: x mandatory;
-
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
 }

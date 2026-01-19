@@ -1,23 +1,23 @@
 @tailwind base;
 
 h1 {
-    @apply text-4xl mt-4 mb-3;
+    @apply text-4xl mt-6 mb-5;
 }
 h2 {
-    @apply text-2xl mt-4 mb-3;
+    @apply text-2xl mt-6 mb-5;
 }
 h3 {
-    @apply text-xl mt-4 mb-3;
+    @apply text-xl mt-6 mb-5;
 }
 li {
     @apply list-disc list-inside
 }
 .nuxt-content a {
-    @apply text-blue-600;
+    @apply text-emerald-600 hover:text-emerald-700 transition-colors duration-300;
 }
 
 article {
-    @apply p-6 text-lg leading-relaxed;
+    @apply p-9 text-lg leading-relaxed;
 }
   
   

@@ -18,9 +18,9 @@ Der Hof umfasst rund 50 Milchkühe, die gleichzeitig den alten und neuen Laufsta
 Unsere landwirtschaftliche Fläche teilt sich zu zwei Drittel in Grünland und zu einem Drittel Ackerland auf. Für die Fütterung der Milchkühe werden Klee, Wintergerste, Triticale und Roggen angebaut. Neben der tierischen Veredelung betreiben wir auch eine Solaranlage auf dem Dach unseres alten Rinderstalles, deren Energie in das Stromnetz eingespeist wird
 
 <div class="flex justify-between flex-wrap">
-    <img class="my-6" src="/kuh_1.jpg" />
-    <img class="my-6" src="/kaelberstall.jpg" />
-    <img class="my-6" src="/kuh_2.jpg" />
-    <img class="my-6" src="/stall.jpg" />
-    <img class="my-6" src="/acker.jpg" />
+    <img class="my-9 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl" src="/kuh_1.jpg" />
+    <img class="my-9 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl" src="/kaelberstall.jpg" />
+    <img class="my-9 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl" src="/kuh_2.jpg" />
+    <img class="my-9 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl" src="/stall.jpg" />
+    <img class="my-9 rounded-xl shadow-md transition-all duration-300 hover:shadow-xl" src="/acker.jpg" />
 </div>

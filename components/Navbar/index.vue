@@ -1,7 +1,9 @@
 <template>
-  <nav class="bg-white pt-4 px-4 shadow-md">
+  <nav
+    class="backdrop-blur-lg bg-white/90 pt-6 px-6 shadow-lg sticky top-0 z-50 rounded-b-xl transition-all duration-300"
+  >
     <div
-      class="flex items-center justify-between flex-wrap lg:justify-center flex-shrink-0 text-blue-900"
+      class="flex items-center justify-between flex-wrap lg:justify-center flex-shrink-0 text-emerald-900"
     >
       <span class="uppercase font-semibold text-xl">
         <NuxtLink to="/">
@@ -11,7 +13,7 @@
 
       <div class="lg:hidden">
         <button
-          class="flex items-center px-3 py-2 border rounded text-blue-900 border-blue-900 hover:text-blue-700 hover:border-blue-700"
+          class="flex items-center px-5 py-3 border rounded-xl text-emerald-900 border-emerald-900 hover:text-emerald-700 hover:border-emerald-700 transition-all duration-300 hover:shadow-lg"
           @click="showMenu = !showMenu"
         >
           <svg
@@ -41,7 +43,7 @@
       </transition>
     </div>
 
-    <div class="mt-3">
+    <div class="mt-5">
       <div
         class="hidden w-full flex justify-center flex-grow lg:flex lg:items-center lg:w-auto"
       >
@@ -71,7 +73,7 @@ const navItems = computed(() => navData.value?.meta?.navItems || [])
 <style scoped>
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.25s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .fade-enter-from,
