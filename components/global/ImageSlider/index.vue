@@ -3,15 +3,16 @@
     <div class="flex flex-col">
       <div class="w-full relative">
         <!-- Slides -->
-        <template v-for="(image, i) in images">
+        <!-- eslint-disable vue/no-template-key, vue/require-v-for-key -->
+        <template v-for="(image, i) in images" :key="i">
           <img
             v-show="currentIndex === i"
-            :key="i"
             class="w-full h-96 object-cover rounded-xl transition-all duration-300"
             :src="image"
             alt="image slide"
           />
         </template>
+        <!-- eslint-enable vue/no-template-key, vue/require-v-for-key -->
 
         <!-- Prev/Next Arrows -->
         <div class="absolute inset-0 flex">
@@ -34,9 +35,9 @@
         </div>
         <!-- Buttons -->
         <div class="absolute w-full flex items-center justify-center px-6">
-          <template v-for="(image, i) in images">
+          <!-- eslint-disable vue/no-template-key, vue/require-v-for-key -->
+          <template v-for="(image, i) in images" :key="i">
             <button
-              :key="i"
               class="flex w-4 h-4 mt-6 mx-3 mb-0 rounded-full overflow-hidden transition-all duration-300 ease-out hover:bg-emerald-300 hover:shadow-lg hover:scale-125"
               :class="{
                 'bg-emerald-600': currentIndex === i,
@@ -45,6 +46,7 @@
               @click="currentIndex = i"
             ></button>
           </template>
+          <!-- eslint-enable vue/no-template-key, vue/require-v-for-key -->
         </div>
       </div>
     </div>
