@@ -24,6 +24,9 @@ module.exports = {
       'error',
       { varsIgnorePattern: '^(page|showMenu|navItems)$' },
     ],
+    // Vue 3 requires keys on <template> tags in v-for loops
+    'vue/no-template-key': 'off',
+    'vue/require-v-for-key': 'off',
   },
   globals: {
     $nuxt: true,
