@@ -4,9 +4,9 @@
       class="flex items-center justify-between flex-wrap lg:justify-center flex-shrink-0 text-blue-900"
     >
       <span class="uppercase font-semibold text-xl">
-        <nuxt-link to="/">
+        <NuxtLink to="/">
           <img class="h-20" src="~/assets/logo.png" />
-        </nuxt-link>
+        </NuxtLink>
       </span>
 
       <div class="lg:hidden">
@@ -56,25 +56,16 @@
   </nav>
 </template>
 
-<script>
-import NavItem from '@/components/NavItem'
-export default {
-  components: {
-    NavItem,
-  },
+<script setup>
+import { ref, computed } from 'vue'
 
-  async fetch() {
-    const data = await this.$content('navigation').fetch()
-    this.navItems = data.navItems
-  },
+const showMenu = ref(false)
 
-  data() {
-    return {
-      showMenu: false,
-      navItems: [],
-    }
-  },
-}
+const { data: navData } = await useAsyncData('navigation', () =>
+  queryCollection('content').path('/navigation').first()
+)
+
+const navItems = computed(() => navData.value?.meta?.navItems || [])
 </script>
 
 <style scoped>
@@ -83,7 +74,7 @@ export default {
   transition: opacity 0.25s ease-in-out;
 }
 
-.fade-enter,
+.fade-enter-from,
 .fade-leave-to {
   opacity: 0;
 }

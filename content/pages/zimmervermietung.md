@@ -1,6 +1,15 @@
 # Zimmervermietung
 
-<image-slider :images="['zimmer-4.jpg', 'zimmer-5.jpg','zimmer-6.jpg','haus-2.jpg', 'haus-3.jpg']"></image-slider>
+::image-slider
+---
+images:
+  - /zimmer-4.jpg
+  - /zimmer-5.jpg
+  - /zimmer-6.jpg
+  - /haus-2.jpg
+  - /haus-3.jpg
+---
+::
 
 ## Preise
 

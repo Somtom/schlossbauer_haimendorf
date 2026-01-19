@@ -1,16 +1,11 @@
 <template>
   <article>
-    <nuxt-content :document="page" />
+    <ContentRenderer v-if="page" :value="page" />
   </article>
 </template>
 
-<script>
-export default {
-  async asyncData({ $content, params }) {
-    const page = await $content('pages/index').fetch()
-    return {
-      page,
-    }
-  },
-}
+<script setup>
+const { data: page } = await useAsyncData('index-page', () =>
+  queryCollection('content').path('/pages').first()
+)
 </script>
