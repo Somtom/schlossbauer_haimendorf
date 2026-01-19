@@ -2,10 +2,9 @@
   <div class="mb-12 h-80 flex flex-col">
     <div class="w-full relative">
       <!-- Slides -->
-      <template v-for="(image, i) in images">
+      <template v-for="(image, i) in images" :key="i">
         <img
           v-show="currentIndex === i"
-          :key="i"
           class="w-full h-80 object-cover flex items-center rounded-lg transition-all duration-200"
           :src="image"
           alt="image slide"
@@ -33,9 +32,8 @@
       </div>
       <!-- Buttons -->
       <div class="absolute w-full flex items-center justify-center px-4">
-        <template v-for="(image, i) in images">
+        <template v-for="(image, i) in images" :key="i">
           <button
-            :key="i"
             class="flex w-4 h-4 mt-4 mx-2 mb-0 rounded-full overflow-hidden transition-colors duration-200 ease-out hover:bg-blue-300 hover:shadow-lg"
             :class="{
               'bg-blue-600': currentIndex === i,
