@@ -16,12 +16,13 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Dies ist die Internetpräsenz der Schlossbauern in Haimendorf',
+      content:
+        'Schlossbauer Haimendorf — Naturland-zertifizierter Bio-Bauernhof mit Senföl, Leindotteröl und Zimmervermietung bei Nürnberg.',
     },
     {
       name: 'keywords',
       content:
-        'schlossbauer, haimendorf, bauernhof haimendorf, schlossbauer haimendorf,zimmer haimendorf, zimmer Montagearbeiter',
+        'schlossbauer, haimendorf, bio-bauernhof, naturland, senföl, leindotteröl, fressermast, zimmervermietung, bauernhof haimendorf, zimmer haimendorf',
     },
   ],
 })

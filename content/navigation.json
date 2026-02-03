@@ -5,12 +5,25 @@
             "label": "Home"
         },
         {
-            "to": "/der-hof",
-            "label": "Unser Hof"
-        },
-        {
             "to": "/ueber-uns",
             "label": "Über uns"
+        },
+        {
+            "label": "Produkte",
+            "children": [
+                {
+                    "to": "/produkte",
+                    "label": "Übersicht"
+                },
+                {
+                    "to": "/produkte/senfoel",
+                    "label": "Senföl"
+                },
+                {
+                    "to": "/produkte/leindotteroel",
+                    "label": "Leindotteröl"
+                }
+            ]
         },
         {
             "to": "/zimmervermietung",
