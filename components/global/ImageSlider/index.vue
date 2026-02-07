@@ -6,7 +6,7 @@
         <template v-for="(image, i) in images" :key="i">
           <img
             v-show="currentIndex === i"
-            class="w-full h-96 object-cover rounded-xl transition-all duration-300"
+            class="w-full h-96 object-cover object-[center_60%] rounded-xl transition-all duration-300"
             :src="image"
             alt="image slide"
           />

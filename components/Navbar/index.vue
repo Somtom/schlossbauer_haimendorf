@@ -32,12 +32,20 @@
           class="lg:hidden w-full block flex-grow max-h-full"
         >
           <div class="text-sm lg:flex-grow">
-            <NavItem
-              v-for="item in navItems"
-              :key="item.to"
-              :to="item.to"
-              :link-text="item.label"
-            />
+            <template v-for="item in navItems" :key="item.label">
+              <NavDropdown
+                v-if="item.children"
+                :key="'drop-mobile-' + item.label"
+                :label="item.label"
+                :children="item.children"
+              />
+              <NavItem
+                v-else
+                :key="'nav-mobile-' + item.label"
+                :to="item.to"
+                :link-text="item.label"
+              />
+            </template>
           </div>
         </div>
       </transition>
@@ -47,12 +55,20 @@
       <div
         class="hidden w-full flex justify-center flex-grow lg:flex lg:items-center lg:w-auto"
       >
-        <NavItem
-          v-for="item in navItems"
-          :key="item.to"
-          :to="item.to"
-          :link-text="item.label"
-        />
+        <template v-for="item in navItems" :key="item.label">
+          <NavDropdown
+            v-if="item.children"
+            :key="'drop-' + item.label"
+            :label="item.label"
+            :children="item.children"
+          />
+          <NavItem
+            v-else
+            :key="'nav-' + item.label"
+            :to="item.to"
+            :link-text="item.label"
+          />
+        </template>
       </div>
     </div>
   </nav>
@@ -61,12 +77,14 @@
 <script setup>
 import { ref, computed } from 'vue'
 
+// eslint-disable-next-line no-unused-vars
 const showMenu = ref(false)
 
 const { data: navData } = await useAsyncData('navigation', () =>
   queryCollection('content').path('/navigation').first()
 )
 
+// eslint-disable-next-line no-unused-vars
 const navItems = computed(() => navData.value?.meta?.navItems || [])
 </script>
 

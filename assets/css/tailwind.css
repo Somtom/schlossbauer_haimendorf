@@ -9,8 +9,16 @@ h2 {
 h3 {
     @apply text-xl mt-6 mb-5;
 }
+ul {
+    @apply list-disc pl-6 my-4;
+}
+
+ol {
+    @apply list-decimal pl-6 my-4;
+}
+
 li {
-    @apply list-disc list-inside
+    @apply mb-2;
 }
 .nuxt-content a {
     @apply text-emerald-600 hover:text-emerald-700 transition-colors duration-300;
@@ -19,8 +27,46 @@ li {
 article {
     @apply p-9 text-lg leading-relaxed;
 }
-  
-  
+
+article a {
+    @apply text-emerald-600 hover:text-emerald-700 underline transition-colors duration-300;
+}
+
+/* Tables */
+article table {
+    @apply w-full my-6 border-collapse rounded-xl overflow-hidden shadow-sm;
+}
+
+article thead {
+    @apply bg-emerald-50;
+}
+
+article th {
+    @apply text-left px-4 py-3 font-semibold text-emerald-900 border-b-2 border-emerald-200;
+}
+
+article td {
+    @apply px-4 py-3 border-b border-emerald-100;
+}
+
+article tbody tr:hover {
+    @apply bg-emerald-50/50;
+}
+
+/* Horizontal rules */
+article hr {
+    @apply my-9 border-t border-emerald-200;
+}
+
+/* Blockquotes */
+article blockquote {
+    @apply border-l-4 border-emerald-300 pl-6 my-6 italic text-emerald-800;
+}
+
+/* Strong within paragraphs */
+article strong {
+    @apply font-semibold text-emerald-900;
+}
 
 @tailwind components;
 
