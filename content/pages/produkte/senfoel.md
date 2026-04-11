@@ -25,7 +25,7 @@ Senföl wird durch das Pressen der Samen der Senfpflanze gewonnen. Es hat einen 
 - **Zur Darm- & Immunpflege:** 2–3x pro Woche
 - **Als Kur:** 7–10 Tage, dann Pause einlegen
 
-**Hinweis:** Nicht zum Braten, Kochen oder Backen geeignet!
+Auch zum Braten und Backen geeignet.
 
 ## 5 Dressing-Rezepte mit Senföl
 
