@@ -10,8 +10,7 @@
             Schlossbauer Haimendorf
           </h3>
           <p class="text-emerald-100 leading-relaxed">
-            Naturland zertifizierter Bio-Bauernhof mit komfortabler
-            Zimmervermietung in ruhiger Lage.
+            Schlossbauer Haimendorf — EU Bio zertifizierter Bauernhof mit Senföl, Leindotteröl und Zimmervermietung bei Nürnberg. Kontrollstellnummer DE001.
           </p>
         </div>
 
