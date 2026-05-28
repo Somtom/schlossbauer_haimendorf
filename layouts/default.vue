@@ -17,7 +17,7 @@ useHead({
     {
       name: 'description',
       content:
-        'Schlossbauer Haimendorf — EU Bio zertifizierter Bauernhof mit Senföl, Leindotteröl und Zimmervermietung bei Nürnberg.',
+        'Schlossbauer Haimendorf — EU Bio zertifizierter Bauernhof mit Senföl, Leindotteröl und Zimmervermietung bei Nürnberg. Kontrollstellnummer DE001.',
     },
     {
       name: 'keywords',
