@@ -17,7 +17,7 @@ useHead({
     {
       name: 'description',
       content:
-        'Schlossbauer Haimendorf — Naturland-zertifizierter Bio-Bauernhof mit Senföl, Leindotteröl und Zimmervermietung bei Nürnberg.',
+        'Schlossbauer Haimendorf — EU Bio zertifizierter Bauernhof mit Senföl, Leindotteröl und Zimmervermietung bei Nürnberg.',
     },
     {
       name: 'keywords',
