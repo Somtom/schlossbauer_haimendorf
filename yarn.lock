@@ -8951,7 +8951,7 @@ nuxt-component-meta@0.18.0:
     unplugin "^2.3.11"
     vue-component-meta "^3.3.7"
 
-nuxt@^4.2.1:
+nuxt@^4.5.2:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-4.5.2.tgz#d396b29773493cb6b9a29de64cdc05193022e579"
   integrity sha512-tR3fcqeHlHmmkLMpIg3V7Y+1ltr302lW8djMw/iy+myfo7QSSz+BVJDuQhg5j73b9oteSyBfOKTDYTgvMtj6TA==
